@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <FooterContainer>
       <Container>
-        <p className="mb-0"><strong>© 2025</strong> - Angelo Nichele | Portfolio</p>
+        <p className="mb-0"><strong>© 2025</strong> - Angelo Nichele | Tous droits réservés</p>
       </Container>
     </FooterContainer>
   );
