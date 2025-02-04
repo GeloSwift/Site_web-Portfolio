@@ -1,0 +1,68 @@
+.timeline-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.timeline-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.timeline-center .timeline-node {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.formation-card {
+    width: 100%;
+    min-height: 100%;
+    padding: 40px;
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Meilleure lisibilité des titres et sous-titres */
+.formation-card .fw-bold {
+    font-size: 1.6rem;
+    color: #000000;
+}
+
+.formation-card .text-light-gray {
+    color: #969696 !important;
+    font-size: 1rem;
+}
+
+.formation-card p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+}
+
+.formation-card i {
+    font-size: 1.1rem;
+    color: #5a5a5a !important;
+}
+
+.mb-5 {
+    font-size: 3rem;
+}
+
+/* Ajout d'une icône en haut à gauche et à droite des cartes */
+.card-header, .card-header-right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.card-header-right {
+    justify-content: flex-end;
+}
+
+.institution-logo {
+    width: 50px;
+    height: auto;
+}

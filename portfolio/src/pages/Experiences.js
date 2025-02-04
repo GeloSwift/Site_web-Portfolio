@@ -46,47 +46,57 @@ const TimelineNode = styled.div`
 const Experience = () => {
   return (
     <Container className="text-center py-5">
-      <h1 className="mb-5">💼 Mes Expériences</h1>
+      <h1 className="mb-5">&#x1F4BC; Mes Expériences</h1>
 
       <Timeline>
         <TimelineLine />
 
+        {/* Alternance */}
         <Row className="justify-content-between">
           <Col md={5} className="text-end">
             <Card className="experience-card">
-            <img src={cyberarkLogo} alt="CyberArk" className="cyberark-logo" />
+              <a href="https://www.splunk.com/fr_fr" target="_blank" rel="noopener noreferrer">
+                <img src={splunkLogo} alt="Splunk" className="splunk-logo" />
+              </a>
               <Card.Body>
                 <Card.Title className="fw-bold">Développement de tableaux de bord (Alternance)</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">Septembre 2024 - Actuel</Card.Subtitle>
                 <Card.Text>
-                  Développement de dashboard Splunk reproduisant le comportement du “Pas Reporter” de CyberArk.
+                  Développement de dashboard <a href="https://www.splunk.com/fr_fr" target="_blank" rel="noopener noreferrer">Splunk</a> reproduisant le comportement du “Pas Reporter” de CyberArk.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col md={2} className="timeline-center">
-            <TimelineNode>
-              <img src={capgeminiLogo} alt="Capgemini" width={80} />
-            </TimelineNode>
+            <a href="https://www.capgemini.com/fr-fr/" target="_blank" rel="noopener noreferrer">
+              <TimelineNode>
+                <img src={capgeminiLogo} alt="Capgemini" width={80} />
+              </TimelineNode>
+            </a>
           </Col>
           <Col md={5}></Col>
         </Row>
 
+        {/* Stage */}
         <Row className="justify-content-between">
           <Col md={5}></Col>
           <Col md={2} className="timeline-center">
-            <TimelineNode>
-              <img src={capgeminiLogo} alt="Capgemini" width={80} />
-            </TimelineNode>
+            <a href="https://www.capgemini.com/fr-fr/" target="_blank" rel="noopener noreferrer">
+              <TimelineNode>
+                <img src={capgeminiLogo} alt="Capgemini" width={80} />
+              </TimelineNode>
+            </a>
           </Col>
           <Col md={5} className="text-start">
             <Card className="experience-card">
-            <img src={splunkLogo} alt="Splunk" className="splunk-logo" />
+              <a href="https://www.cyberark.com/fr/" target="_blank" rel="noopener noreferrer">
+                <img src={cyberarkLogo} alt="Cyberark" className="cyberark-logo" />
+              </a>
               <Card.Body>
                 <Card.Title className="fw-bold">Développement de connecteur (Stage)</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">Février - Avril 2024</Card.Subtitle>
                 <Card.Text>
-                  Développement de connecteur CyberArk PAM pour automatiser la gestion des identifiants sécurisés.
+                  Développement de connecteur <a href="https://www.cyberark.com/fr/" target="_blank" rel="noopener noreferrer">CyberArk</a> PAM pour automatiser la gestion des identifiants sécurisés.
                 </Card.Text>
               </Card.Body>
             </Card>
