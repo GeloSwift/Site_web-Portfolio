@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaBook, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelopeOpenText } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDownload, FaBook, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelopeOpenText } from "react-icons/fa";
 import profilePic from "../assets/images/profile.jpg";
 import "../assets/css/Accueil.css";
 
@@ -12,6 +12,11 @@ const Accueil = () => {
           <img src={profilePic} alt="Angelo Nichele" className="rounded-circle " width={250} height={270} />
           <h1 className="mt-3">Angelo Nichele</h1>
           <h4 className="text-muted">Alternant en Cybersécurité</h4>
+          {/* Bouton pour télécharger le CV */}
+          <a href="/cv_angelo_nichele.pdf" download className="btn btn-dark mt-3">
+            <FaDownload size={18} /> Télécharger mon CV
+          </a>
+
         </Col>
       </Row>
 
@@ -53,9 +58,9 @@ const Accueil = () => {
 
       <h2>Me contacter</h2>
       <Row className="justify-content-center my-4">
-        {[{ link: "https://github.com/GeloSwift", icon: <FaGithub size={20} />, label: "Github" },
-          { link: "https://www.linkedin.com/in/angelo-nichele-110710268/", icon: <FaLinkedin size={20} />, label: "LinkedIn" },
-          { link: "mailto:angelo.nichele317@gmail.com", icon: <FaEnvelope size={20} />, label: "Email" },
+        {[{ link: "mailto:angelo.nichele317@gmail.com", icon: <FaEnvelope size={20} />, label: "Email" },
+          { link: "https://github.com/GeloSwift", icon: <FaGithub size={20} />, label: "Github" },
+          { link: "https://www.linkedin.com/in/angelo-nichele-110710268/", icon: <FaLinkedin size={20} />, label: "LinkedIn" }, 
           { link: "tel:+33785431000", icon: <FaPhone size={20} />, label: "Téléphone" }].map((item, index) => (
             <Col md={2} key={index}>
               <Card as="a" href={item.link} target="_blank" rel="noopener noreferrer" bg="dark" text="white" border="secondary" 

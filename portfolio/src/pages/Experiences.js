@@ -47,7 +47,7 @@ const Experience = () => {
   return (
     <Container className="text-center py-5">
 
-      <h1 className="mb-5">&#x1F4BC; Mes Expériences</h1>
+      <h1 className="mb-5">&#x1F4BC; Expériences</h1>
 
       <hr className="custom-separator" /> 
 

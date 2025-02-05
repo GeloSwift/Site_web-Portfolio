@@ -41,3 +41,12 @@
     border: 1px solid #6e6e6e;
     opacity: 0.5;
 }
+
+.contact-form label {
+    display: block; /* Assure que le label est sur une ligne distincte */
+    text-align: left; /* Aligne le texte du label à gauche */
+    font-size: 1.1rem; /* Augmente la taille de la police */
+    font-weight: bold; /* Met en gras pour plus de visibilité */
+    margin-bottom: 5px; /* Ajoute un petit espace entre le label et l'input */
+    color: #333; /* Couleur plus foncée pour une meilleure lisibilité */
+}

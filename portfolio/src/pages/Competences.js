@@ -106,7 +106,7 @@ const Competences = () => {
 
   return (
     <Container className="text-center py-5">
-      <h1 className="mb-5">&#x1F4DA; Mes Compétences</h1>
+      <h1 className="mb-5">&#x1F4DA; Compétences</h1>
       <hr className="custom-separator" /> 
 
       <Row>
