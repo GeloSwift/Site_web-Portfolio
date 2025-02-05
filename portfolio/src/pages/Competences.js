@@ -40,8 +40,7 @@ const competences = [
     title: "Réseaux",
     desc: (
       <>
-        Configuration et administration de <strong>serveurs Linux</strong>, et gestion des 
-        <strong> protocoles réseaux</strong>.
+        Configuration et administration de <strong>serveurs Linux</strong>, et gestion des <strong> protocoles réseaux</strong>.
       </>
     ),
     icons: [<FaNetworkWired />, <SiLinux />],
