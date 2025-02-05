@@ -31,7 +31,8 @@ const projects = [
     date: "Janvier 2025 (3 semaines)",
     description: (
       <>
-        Création d'un <strong>clone du jeu Flappy Bird</strong> sur le moteur de jeu <strong>Unity</strong>.
+        Création d'un <strong>clone du jeu Flappy Bird</strong> 
+        sur le moteur de jeu <strong>Unity</strong>.
       </>
     ),
     image: flappyBird,
