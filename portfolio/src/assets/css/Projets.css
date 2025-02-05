@@ -1,0 +1,96 @@
+.project-image {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.project-caption {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.project-caption h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.project-caption .text-description {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* Meilleure visibilité de la date */
+.project-caption .text-muted {
+    color: #a0a0a0 !important;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.project-tech {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.project-tech svg {
+    color: white;
+}
+
+.custom-separator {
+    width: 60%;
+    margin: 60px auto;
+    border: 1px solid #6e6e6e;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    width: 6%; /* Légèrement plus large */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)); /* Augmente l'intensité du dégradé */
+    box-shadow: inset 15px 0 40px rgba(0, 0, 0, 0.7), 0px 0px 15px rgba(255, 255, 255, 0.2); /* Ombre plus marquée */
+    transition: all 0.4s ease-in-out;
+    opacity: 0.8; /* Augmente la visibilité par défaut */
+    border-radius: 20px;
+
+}
+
+.carousel-control-next {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    box-shadow: inset -15px 0 40px rgba(0, 0, 0, 0.7), 0px 0px 15px rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+
+}
+
+/* Chevron plus visible */
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+    filter: drop-shadow(3px 3px 5px rgba(0, 0, 0, 1)); /* Ombre plus forte */
+    width: 50px;
+    height: 50px;
+}
+
+/* Effet de pulsation pour attirer l'attention */
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    50% { transform: scale(1.02); opacity: 1; }
+    100% { transform: scale(1); opacity: 0.9; }
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    animation: pulse 2s infinite ease-in-out;
+}
+
+.carousel-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}

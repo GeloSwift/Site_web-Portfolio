@@ -9,7 +9,7 @@ const Accueil = () => {
     <Container className="text-center py-5">
       <Row className="justify-content-center">
         <Col md={4} className="text-center">
-          <img src={profilePic} alt="Angelo Nichele" className="rounded-circle " width={250} height={250} />
+          <img src={profilePic} alt="Angelo Nichele" className="rounded-circle " width={250} height={270} />
           <h1 className="mt-3">Angelo Nichele</h1>
           <h4 className="text-muted">Alternant en Cybersécurité</h4>
         </Col>

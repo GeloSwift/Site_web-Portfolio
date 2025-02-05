@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import { FaHome, FaBook, FaCode, FaProjectDiagram, FaBriefcase, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaEnvelope } from "react-icons/fa";
 
 const BootstrapNavbar = () => {
   return (
@@ -12,10 +12,10 @@ const BootstrapNavbar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto fs-5 d-flex align-items-center gap-4">
-              <Nav.Link href="/formations"><FaBook className="me-2" size={20} />Formations</Nav.Link>
-              <Nav.Link href="/competences"><FaCode className="me-2" size={20} />Compétences</Nav.Link>
-              <Nav.Link href="/projets"><FaProjectDiagram className="me-2" size={20} />Projets</Nav.Link>
-              <Nav.Link href="/experiences"><FaBriefcase className="me-2" size={20} />Expériences</Nav.Link>
+              <Nav.Link href="/formations">&#x1F4D8; Formations</Nav.Link>
+              <Nav.Link href="/competences">&#x1F4C2; Compétences</Nav.Link>
+              <Nav.Link href="/projets">&#x1F9EC; Projets</Nav.Link>
+              <Nav.Link href="/experiences">&#x1F4BC; Expériences</Nav.Link>
             </Nav>
             <Nav className="ms-auto fs-5 d-flex align-items-center">
               <Nav.Link href="/contact" className="text-white" >

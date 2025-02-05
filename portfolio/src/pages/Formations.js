@@ -43,9 +43,13 @@ const TimelineNode = styled.div`
 const Formations = () => {
   return (
     <Container className="text-center py-5">
+
       <h1 className="mb-5">&#x1F4D8; Mes Formations</h1>
 
+      <hr className="custom-separator" /> 
+
       <Timeline>
+        
         <TimelineLine />
 
         {/* Formation BUT */}
@@ -97,7 +101,9 @@ const Formations = () => {
             </Card>
           </Col>
         </Row>
+
       </Timeline>
+
     </Container>
   );
 };
