@@ -18,7 +18,8 @@ const PageWrapper = styled.div`
 `;
 
 const ContentWrapper = styled.div`
-  flex: 1; /* Prend toute la hauteur restante entre Navbar et Footer */
+  flex: 1; 
+  padding-top: 80px;
 `;
 
 function App() {

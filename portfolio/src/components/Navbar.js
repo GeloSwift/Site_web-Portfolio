@@ -4,7 +4,7 @@ import { FaHome, FaEnvelope } from "react-icons/fa";
 
 const BootstrapNavbar = () => {
   return (
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="py-4">
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="fixed-top py-4">
 
         <Container>
 
