@@ -15,9 +15,8 @@ const competences = [
     title: "Développement et Conception",
     desc: (
       <>
-        Expérience en développement avec <strong>Java, Python, PHP, Angular, React</strong>. 
-        Maîtrise des principes de <strong>programmation orientée objet</strong> et du 
-        <strong> pattern Model-View-Controller</strong>.
+        Expérience en développement avec <strong>Java, Angular, Symfony</strong>, ... . 
+        Maîtrise du principe de programmation <strong>orientée objet</strong> et autre.
       </>
     ),
     icons: [<FaJava />, <FaPython />, <FaPhp />, <FaAngular />, <FaReact />, <FaHtml5 />, <FaCss3Alt />, <SiSymfony />, <SiCplusplus />],
@@ -53,7 +52,7 @@ const competences = [
     title: "Base de Données",
     desc: (
       <>
-        Modélisation et gestion de bases de données en <strong>SQL, PL/SQL, MariaDB</strong>. 
+        Modélisation et gestion de bases de données en <strong>SQL, PL/SQL, MariaDB, NoSQL</strong>. 
         Utilisation de <strong>WinDesign</strong> pour les schémas relationnels.
       </>
     ),

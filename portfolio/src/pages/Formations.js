@@ -60,9 +60,9 @@ const Formations = () => {
                 <Card.Title className="fw-bold">BUT Informatique 3ème année</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">2022 - 2025</Card.Subtitle>
                 <Card.Text>
-                  <a href="https://www.iut-blagnac.fr/" target="_blank" rel="noopener noreferrer">IUT de Blagnac</a>, <br></br> 
+                  <strong><a href="https://www.iut-blagnac.fr/" target="_blank" rel="noopener noreferrer">IUT de Blagnac</a></strong>, <br></br> 
                   Université Toulouse II Jean Jaurès <br></br>
-                  <i>Bachelor Universitaire de Technologie en informatique</i>
+                  <i>Bachelor Universitaire de Technologie : Informatique</i>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -93,9 +93,9 @@ const Formations = () => {
                 <Card.Title className="fw-bold">Baccalauréat Général</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">2019 - 2022</Card.Subtitle>
                 <Card.Text>
-                  <a href="https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-saint-exupery-lycee-des-metiers-de-la-productique-et-de-la-maintenance-aeronautique-31.html" target="_blank" rel="noopener noreferrer">Lycée Saint-Exupéry</a>,<br></br> 
+                  <strong><a href="https://www.letudiant.fr/lycee/annuaire-des-lycees/fiche/lycee-polyvalent-saint-exupery-lycee-des-metiers-de-la-productique-et-de-la-maintenance-aeronautique-31.html" target="_blank" rel="noopener noreferrer">Lycée Saint-Exupéry</a></strong>,<br></br> 
                   Blagnac <br></br>
-                  <i>Spécialités Mathématiques et Sciences de l'ingénieur. Mention assez bien.</i>
+                  <i>Spécialités Mathématiques et Sciences de l'ingénieur. <strong>Mention assez bien</strong>.</i>
                 </Card.Text>
               </Card.Body>
             </Card>

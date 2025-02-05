@@ -22,19 +22,22 @@ const Accueil = () => {
 
       <hr className="my-4" />
 
+      <h3 className="mb-4">À propos de moi</h3>
       <Row className="justify-content-center">
         <Col md={8}>
           <p className="fs-5">
-            Moi c'est Angelo, je suis actuellement étudiant en <strong>3ème année de BUT Informatique</strong> et <strong>alternant en cybersécurité</strong> chez <strong>Capgemini</strong>.
-            Je suis passionné par le <strong>développement</strong>, et la <strong>sécurité informatique</strong>.<br />
-            L'année prochaine, je souhaite continuer mes études à <strong>BAC+5</strong> dans une <strong>école d'ingénieur en alternance</strong>.
+            Moi, c'est Angelo ! Actuellement en <strong>troisième année de BUT Informatique</strong> et <strong>alternant en cybersécurité</strong> chez <strong>Capgemini</strong>, 
+            je suis passionné par le <strong>développement</strong> et <strong>la sécurité informatique</strong>. <br></br><br></br>
+            
+            Mon objectif ? Devenir <strong>consultant en cybersécurité</strong>. 
+            Pour y parvenir, je souhaite poursuivre mes études en <strong>Bac+5</strong>, au sein d'une <strong>école d’ingénieur en alternance</strong>, spécialisée en <strong>cybersécurité</strong>.
           </p>
         </Col>
       </Row>
 
       <hr className="my-4" />
 
-      <h2>Explorer mon Portfolio</h2>
+      <h3 className="mb-4">Explorer mon Portfolio</h3>
       <Row className="justify-content-center my-4">
         {[{ path: "/formations", icon: <FaBook size={30} />, label: "Formations" },
           { path: "/competences", icon: <FaCode size={30} />, label: "Compétences" },
@@ -56,7 +59,7 @@ const Accueil = () => {
 
       <hr className="my-4" />
 
-      <h2>Me contacter</h2>
+      <h3 className="mb-4">Me contacter</h3>
       <Row className="justify-content-center my-4">
         {[{ link: "mailto:angelo.nichele317@gmail.com", icon: <FaEnvelope size={20} />, label: "Email" },
           { link: "https://github.com/GeloSwift", icon: <FaGithub size={20} />, label: "Github" },

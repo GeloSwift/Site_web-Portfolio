@@ -109,10 +109,10 @@ const Contact = () => {
       {/* Liens vers GitHub et LinkedIn */}
       <div className="social-links mb-4 mt-5">
         <a href="https://github.com/GeloSwift" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={40} className="social-icon" />
+          <FaGithub size={50} className="social-icon" />
         </a>
         <a href="https://www.linkedin.com/in/angelo-nichele-110710268/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin size={40} className="social-icon" />
+          <FaLinkedin size={50} className="social-icon" />
         </a>
       </div>
     </Container>

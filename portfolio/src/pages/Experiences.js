@@ -66,7 +66,8 @@ const Experience = () => {
                 <Card.Title className="fw-bold">Développement de tableaux de bord (Alternance)</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">Septembre 2024 - Actuel</Card.Subtitle>
                 <Card.Text>
-                  Développement de dashboard <a href="https://www.splunk.com/fr_fr" target="_blank" rel="noopener noreferrer">Splunk</a> reproduisant le comportement du “Pas Reporter” de CyberArk.
+                  Développement de <strong>tableaux de bord <a href="https://www.splunk.com/fr_fr" target="_blank" rel="noopener noreferrer">Splunk</a></strong>, 
+                  permettant de <strong>récolter</strong> et <strong>traiter</strong> des données de serveurs pour une <strong>visualisation claire et efficace</strong>.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -100,7 +101,8 @@ const Experience = () => {
                 <Card.Title className="fw-bold">Développement de connecteur (Stage)</Card.Title>
                 <Card.Subtitle className="text-light-gray mb-4">Février - Avril 2024</Card.Subtitle>
                 <Card.Text>
-                  Développement de connecteur <a href="https://www.cyberark.com/fr/" target="_blank" rel="noopener noreferrer">CyberArk</a> PAM pour automatiser la gestion des identifiants sécurisés.
+                Conception et implémentation d'un <strong>composant de connexion <a href="https://www.cyberark.com/fr/" target="_blank" rel="noopener noreferrer">CyberArk</a></strong>, 
+                facilitant <strong>l'automatisation de la gestion</strong> des identifiants sécurisés.
                 </Card.Text>
               </Card.Body>
             </Card>
